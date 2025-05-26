@@ -19,7 +19,7 @@ basic:
         compare_with_fresh: production
 advanced:
     mask: ''
-    remove: ''
+    remove: ".trusted-home-marquee__group\n.ti-widget-container\n#pr-reviews-carousel-widget"
     isolate: ''
     delay: 15
     scroll: true
