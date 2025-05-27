@@ -18,9 +18,8 @@ basic:
         compare_with: last-production
         compare_with_fresh: production
 advanced:
-    mask: ''
-    remove: ".trusted-home-marquee__group\n.ti-widget-container\n#pr-reviews-carousel-widget"
-    isolate: ''
+    mask: ".trusted-home-marquee__group\n.ti-widget-container\n#pr-reviews-carousel-widget"
+    remove: ''
     delay: 15
     scroll: true
     headers:
@@ -30,6 +29,9 @@ advanced:
     custom_css: ''
     mock_content:
         - { selector: '', type: title }
+    sensitivity: 30
+    night_mode: false
+    retina_images: false
     login:
         type: none
         click_element: false
@@ -47,3 +49,5 @@ advanced:
         workers_production_delay: 0
         workers_nonproduction_delay: 0
     stabilize: true
+proxy: false
+type: single-site
