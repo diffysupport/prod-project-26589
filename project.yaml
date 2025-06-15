@@ -5,9 +5,7 @@ basic:
         staging: 'https://staging.easypersonalloans.com.au'
         development: ''
     basicAuth:
-        production: { user: '', password: '' }
         staging: { user: alerts@jade.finance, password: picnicbear }
-        development: { user: '', password: '' }
     breakpoints:
         - 640
         - 1024
@@ -26,13 +24,11 @@ advanced:
     remove: ''
     delay: 15
     scroll: true
-    headers:
-        - { header: '', value: '' }
+    headers: {  }
     cookies: ''
     custom_js: ''
     custom_css: ''
-    mock_content:
-        - { selector: '', type: title }
+    mock_content: {  }
     sensitivity: 30
     night_mode: false
     retina_images: false
